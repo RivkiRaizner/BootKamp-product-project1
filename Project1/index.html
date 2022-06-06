@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Store</title>
+</head>
+<body>
+    <div id="updateProductPrice">
+        <input id="pId" type="number" placeholder="enter id of product to update">
+        <input id="updatePrice" type="number" placeholder="enter new price to update">
+        <button id="startUpdate" type="submit">UPDATE</button>
+    </div>
+    <div id="addNewProduct">
+        <input id="newName" placeholder="enter name" type="text">
+        <input id="newId" placeholder="enter id" type="number">
+        <select id="newCategories">
+            <option value="Fruit">Fruit</option>
+            <option value="Vegtables">Vegtables</option>
+            <option value="Milks">Milks</option>
+            <option value="Snacks">Snacks</option>
+         </select>
+        <input id="newPrice" type="number" placeholder="enter price">
+        <button id="addNewProductSubmit" type="submit">ADD PRODUCT</button>
+        <button id="searchProductBtn" type="submit">SEARCH PRODUCT</button>
+    </div>
+    <div id="allProducts">
+        <ul>
+
+        </ul>
+    </div>
+   <span> add/less quantity </span>
+   <input id="quantityInput" type="number" placeholder="product id">
+   <button id="addQ">ADD QUANTITY</button>
+   <button id="lessQ">LESS QUANTITY</button>
+
+</body>
+<script src="./Product.js"></script>
+<!-- <script src="./Store.js"></script> -->
+<script src="./Manager.js"></script>
+</html>
