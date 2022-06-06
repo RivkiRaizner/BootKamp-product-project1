@@ -11,6 +11,7 @@ class Product {
     this.price = newPrice;
     console.log(this.price);
   }
+  //hi
   //add quantity
   addQuantity=()=> this.quantity++;
 
